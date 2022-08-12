@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+
+    <link rel="stylesheet" href="Estilo.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+
+    </header>
+               
+    <section>
+        <div>   
+            Entre com os números (1 e 1.000.000):
+            <input type="number" name="fnum" id="fnum">
+            <input type="button" value="Adicionar" onclick="adicionar()"><!-- chamando a função adicionar-->
+            <br>
+            <br>
+            <select name="flista" id="flista" size="6">
+            </select>
+            <br>
+            <input type="button" value="Finalizar" onclick="finalizar()"><!--chamndo a função finalizar -->
+        </div>
+        <div id="res">             
+        </div>
+
+    </section>
+
+    <footer>
+        <br>
+            <p>&copy; André Luis - 12/08/2022</p>
+    </footer>
+
+        <script src="Script.js"></script>
+
+</body>
+</html>
